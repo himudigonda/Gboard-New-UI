@@ -16,8 +16,8 @@ Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks i
  > 
  > Monet is enabled if you flash Kdrag0n's android 12 extension!
  > 
- > If not only the google branding on the spacebar will be enabled and not the ui
+ > If A11 or below, only the google branding on the spacebar will be enabled and not the new ui
  > 
- > If you are on A12 and it doesn't work, update Gboard to beta and flash again.
+ > Recomended : Update Gboard to beta.
  > 
  > Works on any A12 build
