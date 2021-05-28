@@ -3,7 +3,7 @@
 Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks in Gboard.
 
 ## Prerequisites for MaterialYou
-1. Android 12 B1 or above.
+1. Android 12 DP2 or above.
 2. Updated Gboard.
 3. Custom recovery.
 4. Android 12 gxoverlay enabled.
