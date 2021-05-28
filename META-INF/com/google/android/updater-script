@@ -1,0 +1,34 @@
+ui_print ("************************************");
+ui_print ("          Gboard Silkify-alpha      ");
+ui_print ("                          by ruhend ");
+ui_print ("Thanks to: @Flame9914               ");
+ui_print ("************************************");
+show_progress(0.00000, 10);
+
+ui_print ("");
+
+#ui_print (" > Installing gboard v10.6.03.371892758-beta-arm64-v8a");
+#ui_print ("");
+#ui_print (" > md5 : 1b1fd91b46e284333d58f668fe774036");
+#ui_print (" > sha256 : 7ed336e0f4c12adeb337fbf41c4a66a1eb95bbb5043f073a04e88a81078ea969");
+#show_progress(0.20000, 10);
+#ifelse(is_mounted("/system"), unmount("/system"));
+#show_progress(0.30000, 10);
+#ui_print(" > Mounting system");
+#mount("ext4", "EMMC", "/dev/block/bootdevice/by-name/system", "/system");
+#show_progress(0.40000, 10);
+#ui_print(" > Extracting files");
+#package_extract_dir("system", "/system");
+#unmount("/system");
+#ui_print(" + Done extracting files...");
+#show_progress(0.50000, 10);
+ui_print (" > Changing Configs");
+package_extract_dir("data", "/data");
+show_progress(0.70000, 10);
+ui_print ("");
+show_progress(0.90000, 10);
+ui_print (" + Changed Configs successful");
+ui_print ("");
+show_progress(1.00000, 10);
+ui_print(" + Installation complete!");
+ui_print(" > Reboot to see your new gboard UI!")

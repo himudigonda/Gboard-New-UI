@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: EVk51HmTiwoA+Y8eVILXH7Hy9Fk=
+
+Name: vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
+SHA1-Digest: E4EAz7SamrKmqvFYeLj9JHPz7TQ=
+
+Name: vendor/etc/wifi/wpa_supplicant_overlay.conf
+SHA1-Digest: blK5ojx0A1AXG8QYcPvIEktJiAc=
+
+Name: vendor/bin/hw/android.hardware.bluetooth@1.0-service
+SHA1-Digest: CLBiMCehd+/Hd6+t9IrO8XAdEQQ=
+
+Name: vendor/lib64/libxtwifi_ulp_adaptor.so
+SHA1-Digest: B4EkzAGLrficH1WI6RAun3wDTaI=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: CgfeEXiktL7JtbbcEUstTScVB+4=
+
+Name: vendor/lib64/libkeystore-wifi-hidl.so
+SHA1-Digest: dtO9o/7PCF8HUr78YTYp6AFS4Fg=
+
+Name: vendor/lib64/libwifi-hal.so
+SHA1-Digest: 0JIyDb7NoXszwpXDKenlwj+2+xY=
+
+Name: vendor/etc/wifi/WCNSS_qcom_cfg.ini
+SHA1-Digest: W8dO67YQucgzxR03RxK3gpZWF6w=
+
+Name: vendor/bin/hw/android.hardware.wifi@1.0-service
+SHA1-Digest: Hm7HVXBBjJkqnmVdaL68Bur+RBI=
+
+Name: vendor/etc/wifi/wpa_supplicant.conf
+SHA1-Digest: lds30CE8HT/XdmZMS4/16Ur0x3E=
+
+Name: vendor/lib64/libkeystore-engine-wifi-hidl.so
+SHA1-Digest: DY6zGhvj2VxUWF5k5VuUXEmAkeA=
+
+Name: vendor/lib64/liblowi_wifihal.so
+SHA1-Digest: pygZyIqIwmeEKBKHpvfDdDVjL88=
+
+Name: vendor/etc/wifi/p2p_supplicant_overlay.conf
+SHA1-Digest: yXJGXmvEA89ycKYgNRGRFScB6Gc=
+
+Name: vendor/etc/init/android.hardware.wifi@1.0-service.rc
+SHA1-Digest: ckQ8rDc7x+TsCpkRyQ4Uf/xg2P8=
+
