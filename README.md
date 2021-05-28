@@ -2,6 +2,9 @@
 
 Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks in Gboard.
 
+## TODO
+1. change the script to perform sed instead of move!
+
 ## Prerequisites for MaterialYou
 1. Android 12 DP2 or above.
 2. Updated Gboard.
