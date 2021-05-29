@@ -1,4 +1,4 @@
-# Gboard-enable-silk
+# Gboard-enable-new-UI
 
 ![gboard banner](https://user-images.githubusercontent.com/54891285/120060262-71a04400-c074-11eb-8fa3-44c30812b85b.png)
 
