@@ -1,4 +1,4 @@
-# Gboard-enable-new-UI
+# Gboard-new-UI
 
 ![gboard banner](https://user-images.githubusercontent.com/54891285/120060262-71a04400-c074-11eb-8fa3-44c30812b85b.png)
 
@@ -39,9 +39,7 @@ Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks i
 ### Devices
 1. Redmi Note 7/7S (lavender)
 
+### Failure rate
+**3/95**, for now. 
 
-``` 
-~~Warning~~
-
-~~This replaces your entire flags file.~~
-```
+Let's try getting it down to 0!
