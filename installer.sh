@@ -1,4 +1,5 @@
 # #!/sbin/ash
+# @author : @ruhend
 echo "ui_print > " > "$OUTFD"
 #echo "ui_print > Adding smoothprops to /system/build.prop" > "$OUTFD"
 
