@@ -1,0 +1,242 @@
+#!/sbin/sh
+export ZIPFILE="$3"
+export OUTFD="/proc/self/fd/$2"
+export TMP="/tmp"
+export TGTLOC="/data/data/com.google.android.inputmethod.latin/shared_prefs"
+export TGT="flag_value.xml"
+case "$(uname -m)" in
+  *86*) export BINARCH="x86";;  # e.g. Zenfone is i686
+  *ar*) export BINARCH="arm";; # i.e. armv7l and aarch64
+esac
+bb="$TMP/busybox-$BINARCH"
+l="$TMP/bin"
+export TGTBKP="/data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml.bak"
+setenforce 0
+
+echo "ui_print >  arch = $BINARCH" > "$OUTFD"
+echo "ui_print > ." > "$OUTFD"
+echo "ui_print > ***************************************" > "$OUTFD"
+echo "ui_print >          Gboard-MaterialYou-V1.0       " > "$OUTFD"
+echo "ui_print >                      +                 " > "$OUTFD"
+echo "ui_print >            Enable Smooth Props         " > "$OUTFD"
+echo "ui_print >                             by @ruhend " > "$OUTFD"
+echo "ui_print > ***************************************" > "$OUTFD"
+
+#show_progress(0.10000, 10);
+
+echo "ui_print > ." > "$OUTFD"
+echo "ui_print > https://github.com/ruhend/" > "$OUTFD"
+echo "ui_print > https://ruhend.github.io/" > "$OUTFD"
+echo "ui_print > ." > "$OUTFD"
+echo "ui_print > ." > "$OUTFD"
+echo "ui_print > I hope you have installed the Gboard beta version!" > "$OUTFD"
+echo "ui_print > And I hope you've gone through the README.md on github" > "$OUTFD"
+echo "ui_print > ." > "$OUTFD"
+
+
+# sed -i 's/old-text/new-text/g' file.ext
+#show_progress(0.20000, 10);
+echo "ui_print >  Performing seds to change flags(51 flags to be updated!+ 1 new to be flag added)" > "$OUTFD"
+
+if [ -f "$TGTBKP" ]; then
+    echo "ui_print > Initial backup exists. Not overwriting" > "$OUTFD"
+else 
+    cp $TGTLOC/$TGT $TGTBKP    
+    echo "ui_print > Backed up $TGT as $TGTBKP" > "$OUTFD"
+    # echo "$FILE does not exist."
+fi
+
+echo "ui_print > ." > "$OUTFD"
+# cp $TGTLOC/$TGT $TGTLOC/xml_flags.bak
+
+echo "ui_print > 1" > "$OUTFD"
+sed -i 's/"use_silk_theme_by_default\" value=\"false"/"use_silk_theme_by_default\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 2" > "$OUTFD"
+sed -i 's/"enable_sticker_candidates\" value=\"false"/"enable_sticker_candidates\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 3" > "$OUTFD"
+sed -i 's/"concept_prediction_sample_emoji_by_popularity\" value=\"true"/"concept_prediction_sample_emoji_by_popularity\" value=\"false"/g' $TGTLOC/$TGT
+
+echo "ui_print > 4" > "$OUTFD"
+sed -i 's/"trigger_spell_check_in_sentence_delay\" value=\"2000"/"trigger_spell_check_in_sentence_delay\" value=\"1000"/g' $TGTLOC/$TGT
+
+echo "ui_print > 5" > "$OUTFD"
+sed -i 's/"enable_spellchecker_chips_ui\" value=\"false"/"enable_spellchecker_chips_ui\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 6" > "$OUTFD"
+sed -i 's/"enable_inline_suggestions_on_decoder_side\" value=\"false"/"enable_inline_suggestions_on_decoder_side\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 7" > "$OUTFD"
+sed -i 's/"enable_keyboard_redesign\" value=\"false"/"enable_keyboard_redesign\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 8" > "$OUTFD"
+sed -i 's/"supports_battery_saver_theme\" value=\"false\"/"supports_battery_saver_theme\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 9" > "$OUTFD"
+sed -i 's/"branding_fadeout_delay_ms\" value=\"90"/"branding_fadeout_delay_ms\" value=\"9999999"/g' $TGTLOC/$TGT
+
+echo "ui_print > 10" > "$OUTFD"
+sed -i 's/"pill_shaped_key\" value=\"false"/"pill_shaped_key\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 11" > "$OUTFD"
+sed -i 's/"use_keyboard_redesign_theme_by_default\" value=\"false"/"use_keyboard_redesign_theme_by_default\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 12" > "$OUTFD"
+sed -i 's/"show_branding_on_space\" value=\"false"/"show_branding_on_space" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 13" > "$OUTFD"
+sed -i 's/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"false"/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 14" > "$OUTFD"
+sed -i 's/"fast_access_bar_enable_frequently_used\" value=\"false"/"fast_access_bar_enable_frequently_used\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 15" > "$OUTFD"
+sed -i 's/"enable_inline_suggestions_on_client_side\" value=\"false"/"enable_inline_suggestions_on_client_side\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 16" > "$OUTFD"
+sed -i 's/"show_branding_interval_seconds\" value=\"86400000"/"show_branding_interval_seconds\" value=\"0"/g' $TGTLOC/$TGT
+
+echo "ui_print > 17" > "$OUTFD"
+sed -i 's/"spellchecker_enable_rule_trigger\" value=\"false"/"spellchecker_enable_rule_trigger\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 18" > "$OUTFD"
+sed -i 's/"enable_trigger_spell_check_in_sentence\" value=\"false"/"enable_trigger_spell_check_in_sentence\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 19" > "$OUTFD"
+sed -i 's/"enable_spell_checker_extension\" value=\"false"/"nable_spell_checker_extension\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 20" > "$OUTFD"
+sed -i 's/"animate_first_content_suggestion_results\" value=\"false"/"animate_first_content_suggestion_results\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 21" > "$OUTFD"
+sed -i 's/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 22" > "$OUTFD"
+sed -i 's/"silk_on_all_pixel\" value=\"false"/"silk_on_all_pixel\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 23" > "$OUTFD"
+sed -i 's/"keyboard_redesign_google_sans\" value=\"false"/"keyboard_redesign_google_sans\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 24" > "$OUTFD"
+sed -i 's/"nwp_threshold_for_two_words_completions\" value=\"-0.4"/"nwp_threshold_for_two_words_completions\" value=\"-0.3"/g' $TGTLOC/$TGT
+
+echo "ui_print > 25" > "$OUTFD"
+sed -i 's/"trigger_spell_check_in_composing_delay\" value=\"3000"/"trigger_spell_check_in_composing_delay\" value=\"1500"/g' $TGTLOC/$TGT
+
+echo "ui_print > 26" > "$OUTFD"
+sed -i 's/"time_interval_percentile\" value=\"90"/"time_interval_percentile\" value=\"67"/g' $TGTLOC/$TGT
+
+echo "ui_print > 27" > "$OUTFD"
+sed -i 's/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 28" > "$OUTFD"
+sed -i 's/"lm_personalization_enabled\" value=\"false"/"lm_personalization_enabled\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 29" > "$OUTFD"
+sed -i 's/"pseudo_spellchecker_mode\" value=\"0"/"pseudo_spellchecker_mode\" value=\"1"/g' $TGTLOC/$TGT
+
+echo "ui_print > 30" > "$OUTFD"
+sed -i 's/"disable_vocabulary_capitalization\" value=\"true"/"disable_vocabulary_capitalization\" value=\"false"/g' $TGTLOC/$TGT
+
+echo "ui_print > 31" > "$OUTFD"
+sed -i 's/"enable_animated_whatsapp_sticker_webp\" value=\"false"/"enable_animated_whatsapp_sticker_webp\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 32" > "$OUTFD"
+sed -i 's/"enable_new_spellchecker\" value=\"false"/"enable_new_spellchecker\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 33" > "$OUTFD"
+sed -i 's/"spellchecker_enable_language_trigger\" value=\"false"/"spellchecker_enable_language_trigger\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 34" > "$OUTFD"
+sed -i 's/"enable_send_swipe_on_space_to_app\" value=\"false"/"enable_send_swipe_on_space_to_app\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 35" > "$OUTFD"
+sed -i 's/"enable_nga\" value=\"false"/"enable_nga\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 36" > "$OUTFD"
+sed -i 's/"enable_inline_suggestions_space_tooltip\" value=\"false"/"enable_inline_suggestions_space_tooltip\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 37" > "$OUTFD"
+sed -i 's/"enable_trigger_spell_check_in_composing\" value=\"false"/"enable_trigger_spell_check_in_composing\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 38" > "$OUTFD"
+sed -i 's/"enable_spacebar_mixed_model\" value=\"false"/"enable_spacebar_mixed_model\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 39" > "$OUTFD"
+sed -i 's/"enable_single_word_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_single_word_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 40" > "$OUTFD"
+sed -i 's/"enable_fake_app_completion\" value=\"false"/"enable_fake_app_completion\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 41" > "$OUTFD"
+sed -i 's/"threshold_for_single_word_completions\" value=\"-8.0"/"threshold_for_single_word_completions\" value=\"-5.0"/g' $TGTLOC/$TGT
+
+echo "ui_print > 42" > "$OUTFD"
+sed -i 's/"enable_inline_suggestions_tooltip\" value=\"false"/"enable_inline_suggestions_tooltip\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 43" > "$OUTFD"
+sed -i 's/"enable_inline_suggestions_tooltip\" value=\"false"/"enable_inline_suggestions_tooltip\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 44" > "$OUTFD"
+sed -i 's/"enable_keyboard_redesign_theme\" value=\"false"/"enable_keyboard_redesign_theme\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 45" > "$OUTFD"
+sed -i 's/"fast_access_bar_enable_instantly_remove\" value=\"false"/"fast_access_bar_enable_instantly_remove\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 46" > "$OUTFD"
+sed -i 's/"enable_multiword_suggestions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_suggestions_as_inline_from_crank_cifg\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 47" > "$OUTFD"
+sed -i 's/"enable_matched_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_matched_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 48" > "$OUTFD"
+sed -i 's/"nebulae_enable_input_action_collection\" value=\"true"/"nebulae_enable_input_action_collection\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 49" > "$OUTFD"
+sed -i 's/"enable_single_word_suggestions_as_inline_from_crank_cifg\" value=\"false"/"enable_single_word_suggestions_as_inline_from_crank_cifg\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 50" > "$OUTFD"
+sed -i 's/"use_keyboard_redesign_on_existing_theme\" value=\"false"/"use_keyboard_redesign_on_existing_theme\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > 51" > "$OUTFD"
+sed -i 's/"silk_theme\" value=\"false"/"silk_theme\" value=\"true"/g' $TGTLOC/$TGT
+
+echo "ui_print > +"
+
+echo "ui_print > 1" > "$OUTFD"
+echo '    <string name="lm_personalization_superpacks_manifest_url"></string>' >> $TGTLOC/$TGT
+# sed -i 's/"old-text"/"new-text"/g' $TGTLOC/$TGT
+
+echo "ui_print + Done with SED" > "$OUTFD"
+
+
+# adding smooth props in system props
+for f in installer.sh busybox-arm ; do
+  unzip -o "$ZIPFILE" "$f" -d "$TMP";
+done
+for f in  busybox-arm ; do
+  chmod +x "$TMP/$f";
+done
+
+if [ -e "$bb" ]; then
+  install -d "$l"
+  for i in $($bb --list); do
+    if ! ln -sf "$bb" "$l/$i" && ! $bb ln -sf "$bb" "$l/$i" && ! $bb ln -f "$bb" "$l/$i" ; then
+      # create script wrapper if symlinking and hardlinking failed because of restrictive selinux policy
+      if ! echo "#!$bb" > "$l/$i" || ! chmod +x "$l/$i" ; then
+        echo "ui_print > - ERROR 10: Failed to set-up pre-bundled busybox" > "$OUTFD"
+        echo "ui_print > ." > "$OUTFD"
+        echo "ui_print >  Please use TWRP as recovery instead" > "$OUTFD"
+        echo "ui_print > ." > "$OUTFD"
+        exit 1
+      fi
+    fi
+  done
+  PATH="$l:$PATH" $bb ash "$TMP/installer.sh" "$@"
+  exit "$?"
+else
+  echo "ui_print > - ERROR 64: Wrong architecture to set-up pre-bundled busybox" > "$OUTFD"
+  echo "ui_print > ." > "$OUTFD"
+  exit 1
+fi

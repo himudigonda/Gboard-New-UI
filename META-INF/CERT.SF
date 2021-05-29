@@ -1,0 +1,277 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: N4gZ27YHlalATvZrd3D8K9SsFuw=
+
+Name: Core/googleonetimeinitializer-all.tar.lz
+SHA1-Digest-Manifest: +wIZEUpbhmH1eA3rATEpT9ye9Mk=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest-Manifest: Br6xNsbYLFIighT+FGsY/cB14YM=
+
+Name: Core/backuprestore-all.tar.lz
+SHA1-Digest-Manifest: PQYSfPjUVE7VxtzQSH7Yzi3XITQ=
+
+Name: tar-arm
+SHA1-Digest-Manifest: UI2Qb7+eCU/qlDHUtHeLwGcFgW8=
+
+Name: GApps/pixellauncher-all.tar.lz
+SHA1-Digest-Manifest: x0yhklsFb1uroG6QGknxxLvKKVg=
+
+Name: GApps/faceunlock-lib-arm.tar.lz
+SHA1-Digest-Manifest: mti2lBMlUqGCaS4MIPt+FOe1I1U=
+
+Name: GApps/moviesvrmode-arm.tar.lz
+SHA1-Digest-Manifest: nzKMdWr7T3blHpSzhKaEFyzDlR4=
+
+Name: GApps/carrierservices-arm64.tar.lz
+SHA1-Digest-Manifest: 3GW2R59sv8LX4T6A1Bg+s5R3R0o=
+
+Name: g.prop
+SHA1-Digest-Manifest: JiFNdkbVDae6Wzejdj4u25tB/Cs=
+
+Name: GApps/packageinstallergoogle-all.tar.lz
+SHA1-Digest-Manifest: kl51c1UtUaTcczqW+k/S5kbiCfc=
+
+Name: GApps/cameragoogle-arm64.tar.lz
+SHA1-Digest-Manifest: wTlCJ3cUNXrBAmg30pZNPR1JMls=
+
+Name: GApps/markup-lib-arm.tar.lz
+SHA1-Digest-Manifest: l6RddWOXyjkKTa4xydDQt4gfjR4=
+
+Name: GApps/talkback-all.tar.lz
+SHA1-Digest-Manifest: 4XLKudnqS35QDzEerH0zzKLZUXE=
+
+Name: zip-arm
+SHA1-Digest-Manifest: P5TrqSRVK6EizwqYu+Hkh8TtQEM=
+
+Name: GApps/youtube-arm64.tar.lz
+SHA1-Digest-Manifest: OPSfPrTlMvE2LSZ0s4cxP0SsmjU=
+
+Name: GApps/dialergoogle-arm64.tar.lz
+SHA1-Digest-Manifest: i6N+pPGD6T4ti5iZU5jFzA9eADg=
+
+Name: GApps/messenger-arm64.tar.lz
+SHA1-Digest-Manifest: gxyZVtUQo5dFO2DkG454f/DgSwc=
+
+Name: GApps/keyboardgoogle-arm64.tar.lz
+SHA1-Digest-Manifest: YvF8elkjonaBgl85DA3aGryvWq8=
+
+Name: LICENSE
+SHA1-Digest-Manifest: R2L/gVvw+PAE1MKwJ1xZaIsk2GE=
+
+Name: Core/vending-arm.tar.lz
+SHA1-Digest-Manifest: jTZOu7zDlEKvy2FzGPiRGmbZtpw=
+
+Name: GApps/drive-arm64.tar.lz
+SHA1-Digest-Manifest: mNE9fh7OLiZOiZAJHOzzuhpyKfQ=
+
+Name: Core/configupdater-all.tar.lz
+SHA1-Digest-Manifest: G8DEwP/JAzX6PJieiGx4b+sTHsI=
+
+Name: GApps/facedetect-lib-arm.tar.lz
+SHA1-Digest-Manifest: 9ckU1V5aQ2XoILxkSrDEqztjAJA=
+
+Name: Core/defaultetc-common.tar.lz
+SHA1-Digest-Manifest: 71MzvGgE4zwkfuLu7kOBQntrKQU=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest-Manifest: MyqLOpTHgXBuRdOqJvcXBzdvzkc=
+
+Name: app_densities.txt
+SHA1-Digest-Manifest: lqPyX7lnemmR+wVgk98YKUeJc9E=
+
+Name: GApps/cameragooglelegacy-arm.tar.lz
+SHA1-Digest-Manifest: 0QkEqy1+lVT0EI/kQvA+gA7iRs0=
+
+Name: GApps/faceunlock-all.tar.lz
+SHA1-Digest-Manifest: fZAp4cdwvGbcrYBoWogibIoauZQ=
+
+Name: GApps/speech-common.tar.lz
+SHA1-Digest-Manifest: d2FtD+E60Q4Kb7wIMuFi2wur/jA=
+
+Name: GApps/storagemanagergoogle-all.tar.lz
+SHA1-Digest-Manifest: 017g2x1/QI/mmyHGrYn1im10a+A=
+
+Name: GApps/books-all.tar.lz
+SHA1-Digest-Manifest: 1Go9UF/kTRFgsI+5wA535xv5BiM=
+
+Name: GApps/taggoogle-all.tar.lz
+SHA1-Digest-Manifest: OLTg4Ky3b/vSGkOlcLHSsohtK/I=
+
+Name: GApps/markup-lib-arm64.tar.lz
+SHA1-Digest-Manifest: mOjpZx5hxEAZjEX3g+HzMURR8IM=
+
+Name: GApps/cloudprint-all.tar.lz
+SHA1-Digest-Manifest: JobgHO+kAFz6KdojP5PpkV8jank=
+
+Name: GApps/webviewstub-all.tar.lz
+SHA1-Digest-Manifest: whFZMhHa8r+WCELD8iUfpbm3Ztk=
+
+Name: GApps/batteryusage-arm64.tar.lz
+SHA1-Digest-Manifest: pSCGixbb8X9FgEvOV2CfyDpjrcw=
+
+Name: GApps/googlepay-all.tar.lz
+SHA1-Digest-Manifest: xSI6k0nDmTS9IyVhE5WIHQXKBOs=
+
+Name: GApps/calculatorgoogle-all.tar.lz
+SHA1-Digest-Manifest: rINAOVgXEoC5vRpsD085+iGQWyc=
+
+Name: GApps/googletts-arm64.tar.lz
+SHA1-Digest-Manifest: KdDFw4WICOjFzXOYk7zB3KTP4ew=
+
+Name: app_sizes.txt
+SHA1-Digest-Manifest: Xvh+DH7K/ujdOtOrxblNEESxiJY=
+
+Name: Core/googlebackuptransport-all.tar.lz
+SHA1-Digest-Manifest: OL0QgLg2r/zTFSsYU+vsC0Io6mA=
+
+Name: GApps/music-all.tar.lz
+SHA1-Digest-Manifest: SiFbO5TsvwoFUfF2Buk2PiiooNU=
+
+Name: Core/googlepartnersetup-all.tar.lz
+SHA1-Digest-Manifest: kQ8mzSdIL4sh/E93H4ONnRtCG30=
+
+Name: GApps/keep-arm64.tar.lz
+SHA1-Digest-Manifest: znQVsX995vVxno2NPJcOU2oWhPs=
+
+Name: GApps/vrservice-arm64.tar.lz
+SHA1-Digest-Manifest: meccV+JeR04uVgIs/iYafB/0J9U=
+
+Name: Core/googlefeedback-all.tar.lz
+SHA1-Digest-Manifest: HqusT6xmiYU3UlEN49Eglu7jAW4=
+
+Name: Core/setupwizarddefault-all.tar.lz
+SHA1-Digest-Manifest: +HhLeIf8W8LGaZxmesFlvWwuGCs=
+
+Name: Core/gmssetup-all.tar.lz
+SHA1-Digest-Manifest: TwsZ+qJU679x8w71qi5euiLEEPQ=
+
+Name: busybox-arm
+SHA1-Digest-Manifest: YBSAvhXjKiP9qIBzl1Ig8uVGsp8=
+
+Name: GApps/cameragoogle-common.tar.lz
+SHA1-Digest-Manifest: n2JhkQSrmCXtmAhIgcDGjwblAEY=
+
+Name: GApps/cameragooglelegacy-common.tar.lz
+SHA1-Digest-Manifest: rWIWk+86DblATIaYCXh3bfO8G0Y=
+
+Name: GApps/vrservice-common.tar.lz
+SHA1-Digest-Manifest: 2ZZzdVwZoVQ9FHsA4oM5/wyYeko=
+
+Name: Core/gmscore-arm64.tar.lz
+SHA1-Digest-Manifest: bN9dwbzGC4syUAejReGuCXixXy4=
+
+Name: GApps/clockgoogle-all.tar.lz
+SHA1-Digest-Manifest: 2H1/5Vow8Apm59v4CziM1jG0ysI=
+
+Name: GApps/playgames-arm64.tar.lz
+SHA1-Digest-Manifest: aFsfiouXE0jDQ0Siya/q3wpTdxA=
+
+Name: GApps/translate-arm64.tar.lz
+SHA1-Digest-Manifest: Lr344FCF6oFJslAXmP06UR5cpmU=
+
+Name: Optional/swypelibs-lib-arm64.tar.lz
+SHA1-Digest-Manifest: QqpChbCdORz49XJPPkG0HVHEQII=
+
+Name: Core/extservicesgoogle-all.tar.lz
+SHA1-Digest-Manifest: /L64h/JGRZ5o2pZnSy8EewgWa4s=
+
+Name: GApps/webviewgoogle-arm64.tar.lz
+SHA1-Digest-Manifest: vcn8v1/Oqst8oa7h+6lBqDkllFM=
+
+Name: GApps/wellbeing-all.tar.lz
+SHA1-Digest-Manifest: OhmJH5u2doP6Adt8qN388YrxSEA=
+
+Name: Core/carriersetup-all.tar.lz
+SHA1-Digest-Manifest: ipr5uwCxlR35tHa4H7oeAs0CPB8=
+
+Name: GApps/duo-arm64.tar.lz
+SHA1-Digest-Manifest: OADFG8mEBQIeECQ4a5fNR3L1I30=
+
+Name: Core/soundpicker-all.tar.lz
+SHA1-Digest-Manifest: SGFxdyhhHd9BEd3NdCB80M68rlI=
+
+Name: GApps/calsync-all.tar.lz
+SHA1-Digest-Manifest: A885T2idI03/uzNbjnyh0YwPq0M=
+
+Name: installer.sh
+SHA1-Digest-Manifest: 65867D0mL1vdFMqqs0lxp8z2+/Y=
+
+Name: unzip-arm
+SHA1-Digest-Manifest: Yds95mKaJRz5iF6WUCWAh4MzdtI=
+
+Name: GApps/calendargoogle-all.tar.lz
+SHA1-Digest-Manifest: aIyMxmQ1TM11aww11eTjOOce/G4=
+
+Name: GApps/photos-arm64.tar.lz
+SHA1-Digest-Manifest: mRu8PHOoALoQ3mT9l8sZiKVMcqg=
+
+Name: GApps/search-arm64.tar.lz
+SHA1-Digest-Manifest: 7qcUyKYsyyaMr1KeOdHTRqFmUyg=
+
+Name: GApps/printservicegoogle-all.tar.lz
+SHA1-Digest-Manifest: RtuMNITUYc2JPh7BydhVIwNc3MM=
+
+Name: Core/gsfcore-all.tar.lz
+SHA1-Digest-Manifest: 9g0K3cx+ltIsfiCPJHMUiEAtL5c=
+
+Name: bkup_tail.sh
+SHA1-Digest-Manifest: BOJ5486ZHfpQbZP50kI/NRSYO/o=
+
+Name: gapps-remove.txt
+SHA1-Digest-Manifest: /IY+SL3Q2Dpo+7ILwGDwaMy4Pg4=
+
+Name: GApps/exchangegoogle-all.tar.lz
+SHA1-Digest-Manifest: zm3oxUSvkC4WSREL/NTV1rishFI=
+
+Name: Core/defaultframework-common.tar.lz
+SHA1-Digest-Manifest: qakD511VypXCuLkkDkNlLwDdrnQ=
+
+Name: GApps/newsstand-all.tar.lz
+SHA1-Digest-Manifest: YkcSxi6Ha3F4AE7YpKzql11tjQg=
+
+Name: GApps/chrome-arm64.tar.lz
+SHA1-Digest-Manifest: PDbqSP8y04ul2R1zWZ3u3ui1UEI=
+
+Name: GApps/photosvrmode-arm64.tar.lz
+SHA1-Digest-Manifest: UdOlLJpyfAy6eCvVGcpXK6d3A/I=
+
+Name: GApps/androidauto-arm64.tar.lz
+SHA1-Digest-Manifest: m9AtE26RWFQSqqWmScvm3C8Yypc=
+
+Name: GApps/markup-all.tar.lz
+SHA1-Digest-Manifest: /Setd8Eb0sUC2WT1/Keg/brJ7Dc=
+
+Name: GApps/faceunlock-lib-arm64.tar.lz
+SHA1-Digest-Manifest: aOmky4/UP+CRGp2Vt2WQiu8bTUQ=
+
+Name: GApps/wallpapers-all.tar.lz
+SHA1-Digest-Manifest: byHjvB7nXE1BZyTTgBMSWG7pxx0=
+
+Name: Core/googlecontactssync-all.tar.lz
+SHA1-Digest-Manifest: Lzm9Ju4H4a+UvpRRWyGEk/I8g1A=
+
+Name: GApps/contactsgoogle-all.tar.lz
+SHA1-Digest-Manifest: gtpkixR5fW0qGncuqhtsDVskOmQ=
+
+Name: GApps/facedetect-lib-arm64.tar.lz
+SHA1-Digest-Manifest: VWm6eBGDTu9JvXwpe+xiLSriC60=
+
+Name: GApps/dialerframework-common.tar.lz
+SHA1-Digest-Manifest: TwL8WELedOI34hVYe0ez88xLYNM=
+
+Name: GApps/movies-arm.tar.lz
+SHA1-Digest-Manifest: W6fvVO9WFM3vNnx5MQk0DJOE7us=
+
+Name: Core/extsharedgoogle-all.tar.lz
+SHA1-Digest-Manifest: 5tgTMaUhHIH4LbH9rgeI3UEMtKY=
+
+Name: GApps/maps-arm64.tar.lz
+SHA1-Digest-Manifest: W7HFpsnKH2nBnMP8BI14WrjxgUk=
+
+Name: GApps/gmail-all.tar.lz
+SHA1-Digest-Manifest: e8InJE1ryLaXqVy8NnlSpzEj6rY=
+
+Name: Core/setupwizardtablet-all.tar.lz
+SHA1-Digest-Manifest: +zM60I5CMBpzKEgKZFuibrK4itA=
+
