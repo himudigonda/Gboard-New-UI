@@ -25,6 +25,10 @@ Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks i
 ## Notes
  > Monet is enabled only if you are on A12 DP2 or above with Kdrag0n's android 12 extension installed!
  > 
+ > Flash this zip everytime you update your gboard!
+ > 
+ > Make sure you are on default theme in 'styles and wallaper' 
+ > 
  > If A11 or below, only the Beauty UI, Google Branding will be enabled (*NO MONET*)
 
 ## Tested on
@@ -42,6 +46,6 @@ Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks i
 1. Redmi Note 7/7S (lavender)
 
 ### Failure rate
-**3/95**, for now. 
+**9/125**, for now. 
 
-Let's try getting it down to 0!
+Let's try getting it down to 0.005!
