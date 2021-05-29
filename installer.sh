@@ -1,7 +1,7 @@
 # #!/sbin/ash
-# @author : @ruhend
+# Author : @rehund
 echo "ui_print > " > "$OUTFD"
-#echo "ui_print > Adding smoothprops to /system/build.prop" > "$OUTFD"
+#echo "ui_print > Adding smoothprops to $PROPLOC" > "$OUTFD"
 
 block=/dev/block/bootdevice/by-name/system
 device_abpartition=false
@@ -58,19 +58,22 @@ unmount_all() {
   fi;
 }
 
+export PROPLOC="/$SYSTEM/build.prop"
+
 mounting;
 echo "ui_print > Checking if Smooth Props is already added" > "$OUTFD"
 
-grep "# Smooth Props Section" -q $SYSTEM/build.prop && echo "ui_print > Smooth Props (#) Already Present! Skipping" > "$OUTFD" || echo "# Smooth Props Section" >> $SYSTEM/build.prop
-grep "debug.sf.latch_unsignaled=1" -q $SYSTEM/build.prop && echo "ui_print > Smooth Props (A) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.latch_unsignaled=1" >> $SYSTEM/build.prop
-grep "debug.sf.disable_backpressure=1" -q $SYSTEM/build.prop && echo "ui_print > Smooth Props (B) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.disable_backpressure=1" >> $SYSTEM/build.prop
+grep "# Smooth Props Section" -q $PROPLOC && echo "ui_print > Smooth Props (#) Already Present! Skipping" > "$OUTFD" || echo "# Smooth Props Section" >> $PROPLOC
+grep "debug.sf.latch_unsignaled=1" -q $PROPLOC && echo "ui_print > Smooth Props (A) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.latch_unsignaled=1" >> $PROPLOC
+grep "debug.sf.disable_backpressure=1" -q $PROPLOC && echo "ui_print > Smooth Props (B) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.disable_backpressure=1" >> $PROPLOC
 
-echo "ui_print > Patched $SYSTEM/build.prop"  > "$OUTFD"
+echo "ui_print > Patched $PROPLOC"  > "$OUTFD"
 
-echo "" >> $SYSTEM/build.prop
+echo "" >> $PROPLOC
 
 unmount_all;
 
 echo "ui_print + Installation complete!" > "$OUTFD"
 echo "ui_print + Reboot to see your new gboard UI!" > "$OUTFD"
+echo "ui_print + Incase, you want to revert back to original, clear Gboard's user data!" > "$OUTFD"
 echo "ui_print :) by ruhend " > "$OUTFD"
