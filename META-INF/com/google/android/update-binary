@@ -1,4 +1,5 @@
 #!/sbin/sh
+# @author : @ruhend
 export ZIPFILE="$3"
 export OUTFD="/proc/self/fd/$2"
 export TMP="/tmp"
@@ -15,12 +16,12 @@ setenforce 0
 
 echo "ui_print >  arch = $BINARCH" > "$OUTFD"
 echo "ui_print > ." > "$OUTFD"
-echo "ui_print > ***************************************" > "$OUTFD"
-echo "ui_print >          Gboard-MaterialYou-V1.0       " > "$OUTFD"
-echo "ui_print >                      +                 " > "$OUTFD"
-echo "ui_print >            Enable Smooth Props         " > "$OUTFD"
-echo "ui_print >                             by @ruhend " > "$OUTFD"
-echo "ui_print > ***************************************" > "$OUTFD"
+echo "ui_print > ****************************************" > "$OUTFD"
+echo "ui_print >             Gboard-New-UI-V2.0          " > "$OUTFD"
+echo "ui_print >                       +                 " > "$OUTFD"
+echo "ui_print >            Enable Smoooth Props         " > "$OUTFD"
+echo "ui_print >                              by @ruhend " > "$OUTFD"
+echo "ui_print > ****************************************" > "$OUTFD"
 
 #show_progress(0.10000, 10);
 
@@ -202,7 +203,7 @@ sed -i 's/"use_keyboard_redesign_on_existing_theme\" value=\"false"/"use_keyboar
 echo "ui_print > 51" > "$OUTFD"
 sed -i 's/"silk_theme\" value=\"false"/"silk_theme\" value=\"true"/g' $TGTLOC/$TGT
 
-echo "ui_print > +"
+echo "ui_print > +" > "$OUTFD"
 
 echo "ui_print > 1" > "$OUTFD"
 echo '    <string name="lm_personalization_superpacks_manifest_url"></string>' >> $TGTLOC/$TGT
