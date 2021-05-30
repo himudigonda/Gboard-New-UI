@@ -35,6 +35,8 @@
  > 
  > Make sure you are on default theme in 'styles and wallaper' 
  > 
+ > Reflash the zip if you update your Gboard.
+ > 
  > If A11 or below, only the Beauty UI, Google Branding will be enabled (*NO MONET*)
 
 ## Tested on
