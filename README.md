@@ -1,4 +1,4 @@
-<h1 align='center'> Gboard-new-UI
+<h1 align='center'> Gboard new UI <br><br>
 
 ![gboard banner](https://user-images.githubusercontent.com/54891285/120060262-71a04400-c074-11eb-8fa3-44c30812b85b.png)
 </h1>
@@ -38,6 +38,10 @@
  > Reflash the zip if you update your Gboard.
  > 
  > If A11 or below, only the Beauty UI, Google Branding will be enabled (*NO MONET*)
+
+## Steps to install
+1. Flash in recovery
+2. Reboot
 
 ## Tested on
 ### ROMs
