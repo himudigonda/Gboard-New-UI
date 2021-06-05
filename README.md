@@ -9,12 +9,6 @@
   ![Android](https://img.shields.io/badge/-Android-333333?style=flat-square&logo=android) 
 </h1>
 
-## Updates
-Autocorrect-spellchecker suggested word highlight!
-
-![image](https://user-images.githubusercontent.com/54891285/120164448-376fa780-c218-11eb-9c74-4765e939bd98.png)
-
-
 ## Before you flash (A12)
 1. Make sure you installed a12 for monet.
 2. Enabled monet using Kdragon's extension
