@@ -17,7 +17,7 @@ setenforce 0
 echo "ui_print >  arch = $BINARCH" > "$OUTFD"
 echo "ui_print > ." > "$OUTFD"
 echo "ui_print > *****************************************" > "$OUTFD"
-echo "ui_print > *           Gboard-New-UI-V2.1          *" > "$OUTFD"
+echo "ui_print > *           Gboard-New-UI-V2.2          *" > "$OUTFD"
 echo "ui_print > *                     +                 *" > "$OUTFD"
 echo "ui_print > *         Smoooth and Recx Props        *" > "$OUTFD"
 echo "ui_print > *                            by @ruhend *" > "$OUTFD"
@@ -74,7 +74,7 @@ echo "ui_print > 7 enable_keyboard_redesign" > "$OUTFD"
 sed -i 's/"enable_keyboard_redesign\" value=\"false"/"enable_keyboard_redesign\" value=\"true"/g' $TGT
 
 echo "ui_print > 8 supports_battery_saver_theme" > "$OUTFD"
-sed -i 's/"supports_battery_saver_theme\" value=\"false\"/"supports_battery_saver_theme\" value=\"true"/g' $TGT
+sed -i 's/"supports_battery_saver_theme\" value=\"false"/"supports_battery_saver_theme\" value=\"true"/g' $TGT
 
 echo "ui_print > 9 branding_fadeout_delay_ms" > "$OUTFD"
 sed -i 's/"branding_fadeout_delay_ms\" value=\"900"/"branding_fadeout_delay_ms\" value=\"9000000"/g' $TGT
@@ -209,7 +209,10 @@ echo "ui_print > 52 enable_tflite_triggering_model" > "$OUTFD"
 sed -i 's/"enable_tflite_triggering_model\" value=\"false"/"enable_tflite_triggering_model\" value=\"true"/g' $TGT
 
 echo "ui_print > 53 extends_touch_below_space" > "$OUTFD"
-sed -i 's/"extends_touch_below_space\" value=\"false"/"extends_touch_below_space\" value=\"false"/g' $TGT
+sed -i 's/"extends_touch_below_space\" value=\"false"/"extends_touch_below_space\" value=\"true"/g' $TGT
+
+echo "ui_print > 54 native_language_hint_by_system_locales" > "$OUTFD"
+sed -i 's/"native_language_hint_by_system_locales\" value=\"false"/"native_language_hint_by_system_locales\" value=\"false"/g' $TGT
 
 echo "ui_print > +" > "$OUTFD"
 
