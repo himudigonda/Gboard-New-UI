@@ -67,6 +67,7 @@ grep "# Smooth Props Section" -q $PROPLOC && echo "ui_print > Smooth Props (#) A
 grep "debug.sf.latch_unsignaled=1" -q $PROPLOC && echo "ui_print > Smooth Props (A) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.latch_unsignaled=1" >> $PROPLOC
 grep "debug.sf.disable_backpressure=1" -q $PROPLOC && echo "ui_print > Smooth Props (B) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.disable_backpressure=1" >> $PROPLOC
 
+sed -i 's/"Screenrecx"/"Recx"/g' $PROPLOC
 grep "# Recx Props Section" -q $PROPLOC && echo "ui_print > Recx Props (#) Already Present! Skipping" > "$OUTFD" || echo "# Recx Props Section" >> $PROPLOC
 grep "debug.sf.enable_hwc_vds=0" -q $PROPLOC && echo "ui_print > Recx Props (A) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.enable_hwc_vds=0" >> $PROPLOC
 grep "debug.sf.latch_unsignaled=0" -q $PROPLOC && echo "ui_print > Recx Props (B) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.latch_unsignaled=0" >> $PROPLOC
