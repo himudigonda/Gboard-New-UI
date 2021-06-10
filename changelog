@@ -1,4 +1,2 @@
-### v2.2
-- Fixed 2 typos in update-binary (activated previously bugged flag)
-- Fixed wrong naming in installer.sh
-- Enabled 1 new flag
+### v3
+- Compatible with s12-b2
