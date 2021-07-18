@@ -17,9 +17,9 @@ setenforce 0
 echo "ui_print >  arch = $BINARCH" > "$OUTFD"
 echo "ui_print > ." > "$OUTFD"
 echo "ui_print > *****************************************" > "$OUTFD"
-echo "ui_print > *           Gboard-New-UI-V2.2          *" > "$OUTFD"
+echo "ui_print > *             Gboard-New-UI-V3           *" > "$OUTFD"
 echo "ui_print > *                     +                 *" > "$OUTFD"
-echo "ui_print > *         Smoooth and Recx Props        *" > "$OUTFD"
+echo "ui_print > *              Smoooth Props            *" > "$OUTFD"
 echo "ui_print > *                            by @ruhend *" > "$OUTFD"
 echo "ui_print > *****************************************" > "$OUTFD"
 

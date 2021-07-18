@@ -35,6 +35,7 @@
 
 ## Tested on
 ### ROMs
+For beta 2, use the v3.0 for now.
 1. A12 B1
 2. A12 DP3
 3. A10 - G Branding
