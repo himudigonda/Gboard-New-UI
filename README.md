@@ -1,4 +1,5 @@
 <h1 align='center'> Gboard new UI <br><br>
+ (not compatible with Android 12 Beta 3, yet.)
 
 ![gboard banner](https://user-images.githubusercontent.com/54891285/120060262-71a04400-c074-11eb-8fa3-44c30812b85b.png)
 </h1>
@@ -49,9 +50,8 @@ _4. A11 - G Branding_
 1. Redmi Note 7/7S (lavender)
 
 ### Failure rate
-**12/167**, for now. 
+**15/956**, for now. 
 
-Let's try getting it down to 0.005!
 
 ## TODO
 * [X] REWRITE script to use sed!
