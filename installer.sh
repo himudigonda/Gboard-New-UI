@@ -63,7 +63,7 @@ export PROPLOC="/$SYSTEM/build.prop"
 mounting;
 echo "ui_print > Checking if Smooth Props is already added" > "$OUTFD"
 
-grep "# Smooth Props Section" -q $PROPLOC && echo "ui_print > Smooth Props (#) Already Present! Skipping" > "$OUTFD" || echo "# Smooth Props Section" >> $PROPLOC
+#grep "# Smooth Props Section" -q $PROPLOC && echo "ui_print > Smooth Props (#) Already Present! Skipping" > "$OUTFD" || echo "# Smooth Props Section" >> $PROPLOC
 #grep "debug.sf.latch_unsignaled=1" -q $PROPLOC && echo "ui_print > Smooth Props (A) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.latch_unsignaled=1" >> $PROPLOC
 #grep "debug.sf.disable_backpressure=1" -q $PROPLOC && echo "ui_print > Smooth Props (B) Already Present! Skipping" > "$OUTFD" || echo "debug.sf.disable_backpressure=1" >> $PROPLOC
 
