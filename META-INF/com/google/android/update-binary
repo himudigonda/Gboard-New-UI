@@ -82,137 +82,137 @@ sed -i 's/"branding_fadeout_delay_ms\" value=\"900"/"branding_fadeout_delay_ms\"
 echo "ui_print > 10 pill_shaped_key" > "$OUTFD"
 sed -i 's/"pill_shaped_key\" value=\"false"/"pill_shaped_key\" value=\"true"/g' $TGT
 
-echo "ui_print > 11 use_keyboard_redesign_theme_by_default" > "$OUTFD"
-sed -i 's/"use_keyboard_redesign_theme_by_default\" value=\"false"/"use_keyboard_redesign_theme_by_default\" value=\"true"/g' $TGT
+# echo "ui_print > 11 use_keyboard_redesign_theme_by_default" > "$OUTFD"
+# sed -i 's/"use_keyboard_redesign_theme_by_default\" value=\"false"/"use_keyboard_redesign_theme_by_default\" value=\"true"/g' $TGT
 
-echo "ui_print > 12 show_branding_on_space" > "$OUTFD"
-sed -i 's/"show_branding_on_space\" value=\"false"/"show_branding_on_space" value=\"true"/g' $TGT
+# echo "ui_print > 12 show_branding_on_space" > "$OUTFD"
+# sed -i 's/"show_branding_on_space\" value=\"false"/"show_branding_on_space" value=\"true"/g' $TGT
 
-echo "ui_print > 13 use_keyboard_redesign_on_existing_theme_on_all_users" > "$OUTFD"
-sed -i 's/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"false"/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"true"/g' $TGT
+# echo "ui_print > 13 use_keyboard_redesign_on_existing_theme_on_all_users" > "$OUTFD"
+# sed -i 's/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"false"/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"true"/g' $TGT
 
-echo "ui_print > 14 fast_access_bar_enable_frequently_used" > "$OUTFD"
-sed -i 's/"fast_access_bar_enable_frequently_used\" value=\"false"/"fast_access_bar_enable_frequently_used\" value=\"true"/g' $TGT
+# echo "ui_print > 14 fast_access_bar_enable_frequently_used" > "$OUTFD"
+# sed -i 's/"fast_access_bar_enable_frequently_used\" value=\"false"/"fast_access_bar_enable_frequently_used\" value=\"true"/g' $TGT
 
-echo "ui_print > 15 enable_inline_suggestions_on_client_side" > "$OUTFD"
-sed -i 's/"enable_inline_suggestions_on_client_side\" value=\"false"/"enable_inline_suggestions_on_client_side\" value=\"true"/g' $TGT
+# echo "ui_print > 15 enable_inline_suggestions_on_client_side" > "$OUTFD"
+# sed -i 's/"enable_inline_suggestions_on_client_side\" value=\"false"/"enable_inline_suggestions_on_client_side\" value=\"true"/g' $TGT
 
-echo "ui_print > 16 show_branding_interval_seconds" > "$OUTFD"
-sed -i 's/"show_branding_interval_seconds\" value=\"86400000"/"show_branding_interval_seconds\" value=\"0"/g' $TGT
+# echo "ui_print > 16 show_branding_interval_seconds" > "$OUTFD"
+# sed -i 's/"show_branding_interval_seconds\" value=\"86400000"/"show_branding_interval_seconds\" value=\"0"/g' $TGT
 
-echo "ui_print > 17 spellchecker_enable_rule_trigger" > "$OUTFD"
-sed -i 's/"spellchecker_enable_rule_trigger\" value=\"false"/"spellchecker_enable_rule_trigger\" value=\"true"/g' $TGT
+# echo "ui_print > 17 spellchecker_enable_rule_trigger" > "$OUTFD"
+# sed -i 's/"spellchecker_enable_rule_trigger\" value=\"false"/"spellchecker_enable_rule_trigger\" value=\"true"/g' $TGT
 
-echo "ui_print > 18 enable_trigger_spell_check_in_sentence" > "$OUTFD"
-sed -i 's/"enable_trigger_spell_check_in_sentence\" value=\"false"/"enable_trigger_spell_check_in_sentence\" value=\"true"/g' $TGT
+# echo "ui_print > 18 enable_trigger_spell_check_in_sentence" > "$OUTFD"
+# sed -i 's/"enable_trigger_spell_check_in_sentence\" value=\"false"/"enable_trigger_spell_check_in_sentence\" value=\"true"/g' $TGT
 
-echo "ui_print > 19 enable_spell_checker_extension" > "$OUTFD"
-sed -i 's/"enable_spell_checker_extension\" value=\"false"/"nable_spell_checker_extension\" value=\"true"/g' $TGT
+# echo "ui_print > 19 enable_spell_checker_extension" > "$OUTFD"
+# sed -i 's/"enable_spell_checker_extension\" value=\"false"/"nable_spell_checker_extension\" value=\"true"/g' $TGT
 
-echo "ui_print > 20 animate_first_content_suggestion_results" > "$OUTFD"
-sed -i 's/"animate_first_content_suggestion_results\" value=\"false"/"animate_first_content_suggestion_results\" value=\"true"/g' $TGT
+# echo "ui_print > 20 animate_first_content_suggestion_results" > "$OUTFD"
+# sed -i 's/"animate_first_content_suggestion_results\" value=\"false"/"animate_first_content_suggestion_results\" value=\"true"/g' $TGT
 
-echo "ui_print > 21 enable_user_history_predictions_as_inline_from_crank_cifg" > "$OUTFD"
-sed -i 's/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+# echo "ui_print > 21 enable_user_history_predictions_as_inline_from_crank_cifg" > "$OUTFD"
+# sed -i 's/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-echo "ui_print > 22 silk_on_all_pixel" > "$OUTFD"
-sed -i 's/"silk_on_all_pixel\" value=\"false"/"silk_on_all_pixel\" value=\"true"/g' $TGT
+# echo "ui_print > 22 silk_on_all_pixel" > "$OUTFD"
+# sed -i 's/"silk_on_all_pixel\" value=\"false"/"silk_on_all_pixel\" value=\"true"/g' $TGT
 
-echo "ui_print > 23 keyboard_redesign_google_sans" > "$OUTFD"
-sed -i 's/"keyboard_redesign_google_sans\" value=\"false"/"keyboard_redesign_google_sans\" value=\"true"/g' $TGT
+# echo "ui_print > 23 keyboard_redesign_google_sans" > "$OUTFD"
+# sed -i 's/"keyboard_redesign_google_sans\" value=\"false"/"keyboard_redesign_google_sans\" value=\"true"/g' $TGT
 
-echo "ui_print > 24 nwp_threshold_for_two_words_completions" > "$OUTFD"
-sed -i 's/"nwp_threshold_for_two_words_completions\" value=\"-0.4"/"nwp_threshold_for_two_words_completions\" value=\"-0.3"/g' $TGT
+# echo "ui_print > 24 nwp_threshold_for_two_words_completions" > "$OUTFD"
+# sed -i 's/"nwp_threshold_for_two_words_completions\" value=\"-0.4"/"nwp_threshold_for_two_words_completions\" value=\"-0.3"/g' $TGT
 
-echo "ui_print > 25 trigger_spell_check_in_composing_delay" > "$OUTFD"
-sed -i 's/"trigger_spell_check_in_composing_delay\" value=\"3000"/"trigger_spell_check_in_composing_delay\" value=\"1500"/g' $TGT
+# echo "ui_print > 25 trigger_spell_check_in_composing_delay" > "$OUTFD"
+# sed -i 's/"trigger_spell_check_in_composing_delay\" value=\"3000"/"trigger_spell_check_in_composing_delay\" value=\"1500"/g' $TGT
 
-echo "ui_print > 26 time_interval_percentile" > "$OUTFD"
-sed -i 's/"time_interval_percentile\" value=\"90"/"time_interval_percentile\" value=\"67"/g' $TGT
+# echo "ui_print > 26 time_interval_percentile" > "$OUTFD"
+# sed -i 's/"time_interval_percentile\" value=\"90"/"time_interval_percentile\" value=\"67"/g' $TGT
 
-echo "ui_print > 27 enable_multiword_predictions_as_inline_from_crank_cifg" > "$OUTFD"
-sed -i 's/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+# echo "ui_print > 27 enable_multiword_predictions_as_inline_from_crank_cifg" > "$OUTFD"
+# sed -i 's/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-echo "ui_print > 28 lm_personalization_enabled" > "$OUTFD"
-sed -i 's/"lm_personalization_enabled\" value=\"false"/"lm_personalization_enabled\" value=\"true"/g' $TGT
+# echo "ui_print > 28 lm_personalization_enabled" > "$OUTFD"
+# sed -i 's/"lm_personalization_enabled\" value=\"false"/"lm_personalization_enabled\" value=\"true"/g' $TGT
 
-echo "ui_print > 29 pseudo_spellchecker_mode" > "$OUTFD"
-sed -i 's/"pseudo_spellchecker_mode\" value=\"0"/"pseudo_spellchecker_mode\" value=\"1"/g' $TGT
+# echo "ui_print > 29 pseudo_spellchecker_mode" > "$OUTFD"
+# sed -i 's/"pseudo_spellchecker_mode\" value=\"0"/"pseudo_spellchecker_mode\" value=\"1"/g' $TGT
 
-echo "ui_print > 30 disable_vocabulary_capitalization" > "$OUTFD"
-sed -i 's/"disable_vocabulary_capitalization\" value=\"true"/"disable_vocabulary_capitalization\" value=\"false"/g' $TGT
+# echo "ui_print > 30 disable_vocabulary_capitalization" > "$OUTFD"
+# sed -i 's/"disable_vocabulary_capitalization\" value=\"true"/"disable_vocabulary_capitalization\" value=\"false"/g' $TGT
 
-echo "ui_print > 31 enable_animated_whatsapp_sticker_webp" > "$OUTFD"
-sed -i 's/"enable_animated_whatsapp_sticker_webp\" value=\"false"/"enable_animated_whatsapp_sticker_webp\" value=\"true"/g' $TGT
+# echo "ui_print > 31 enable_animated_whatsapp_sticker_webp" > "$OUTFD"
+# sed -i 's/"enable_animated_whatsapp_sticker_webp\" value=\"false"/"enable_animated_whatsapp_sticker_webp\" value=\"true"/g' $TGT
 
-echo "ui_print > 32 enable_new_spellchecker" > "$OUTFD"
-sed -i 's/"enable_new_spellchecker\" value=\"false"/"enable_new_spellchecker\" value=\"true"/g' $TGT
+# echo "ui_print > 32 enable_new_spellchecker" > "$OUTFD"
+# sed -i 's/"enable_new_spellchecker\" value=\"false"/"enable_new_spellchecker\" value=\"true"/g' $TGT
 
-echo "ui_print > 33 spellchecker_enable_language_trigger" > "$OUTFD"
-sed -i 's/"spellchecker_enable_language_trigger\" value=\"false"/"spellchecker_enable_language_trigger\" value=\"true"/g' $TGT
+# echo "ui_print > 33 spellchecker_enable_language_trigger" > "$OUTFD"
+# sed -i 's/"spellchecker_enable_language_trigger\" value=\"false"/"spellchecker_enable_language_trigger\" value=\"true"/g' $TGT
 
-echo "ui_print > 34 enable_send_swipe_on_space_to_app" > "$OUTFD"
-sed -i 's/"enable_send_swipe_on_space_to_app\" value=\"false"/"enable_send_swipe_on_space_to_app\" value=\"true"/g' $TGT
+# echo "ui_print > 34 enable_send_swipe_on_space_to_app" > "$OUTFD"
+# sed -i 's/"enable_send_swipe_on_space_to_app\" value=\"false"/"enable_send_swipe_on_space_to_app\" value=\"true"/g' $TGT
 
-echo "ui_print > 35 enable_nga" > "$OUTFD"
-sed -i 's/"enable_nga\" value=\"false"/"enable_nga\" value=\"true"/g' $TGT
+# echo "ui_print > 35 enable_nga" > "$OUTFD"
+# sed -i 's/"enable_nga\" value=\"false"/"enable_nga\" value=\"true"/g' $TGT
 
-echo "ui_print > 36 enable_inline_suggestions_space_tooltip" > "$OUTFD"
-sed -i 's/"enable_inline_suggestions_space_tooltip\" value=\"false"/"enable_inline_suggestions_space_tooltip\" value=\"true"/g' $TGT
+# echo "ui_print > 36 enable_inline_suggestions_space_tooltip" > "$OUTFD"
+# sed -i 's/"enable_inline_suggestions_space_tooltip\" value=\"false"/"enable_inline_suggestions_space_tooltip\" value=\"true"/g' $TGT
 
-echo "ui_print > 37 enable_trigger_spell_check_in_composing" > "$OUTFD"
-sed -i 's/"enable_trigger_spell_check_in_composing\" value=\"false"/"enable_trigger_spell_check_in_composing\" value=\"true"/g' $TGT
+# echo "ui_print > 37 enable_trigger_spell_check_in_composing" > "$OUTFD"
+# sed -i 's/"enable_trigger_spell_check_in_composing\" value=\"false"/"enable_trigger_spell_check_in_composing\" value=\"true"/g' $TGT
 
-echo "ui_print > 38 enable_spacebar_mixed_model" > "$OUTFD"
-sed -i 's/"enable_spacebar_mixed_model\" value=\"false"/"enable_spacebar_mixed_model\" value=\"true"/g' $TGT
+# echo "ui_print > 38 enable_spacebar_mixed_model" > "$OUTFD"
+# sed -i 's/"enable_spacebar_mixed_model\" value=\"false"/"enable_spacebar_mixed_model\" value=\"true"/g' $TGT
 
-echo "ui_print > 39 enable_single_word_predictions_as_inline_from_crank_cifg" > "$OUTFD"
-sed -i 's/"enable_single_word_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_single_word_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+# echo "ui_print > 39 enable_single_word_predictions_as_inline_from_crank_cifg" > "$OUTFD"
+# sed -i 's/"enable_single_word_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_single_word_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-echo "ui_print > 40 enable_fake_app_completion" > "$OUTFD"
-sed -i 's/"enable_fake_app_completion\" value=\"false"/"enable_fake_app_completion\" value=\"true"/g' $TGT
+# echo "ui_print > 40 enable_fake_app_completion" > "$OUTFD"
+# sed -i 's/"enable_fake_app_completion\" value=\"false"/"enable_fake_app_completion\" value=\"true"/g' $TGT
 
-echo "ui_print > 41 threshold_for_single_word_completions" > "$OUTFD"
-sed -i 's/"threshold_for_single_word_completions\" value=\"-8.0"/"threshold_for_single_word_completions\" value=\"-5.0"/g' $TGT
+# echo "ui_print > 41 threshold_for_single_word_completions" > "$OUTFD"
+# sed -i 's/"threshold_for_single_word_completions\" value=\"-8.0"/"threshold_for_single_word_completions\" value=\"-5.0"/g' $TGT
 
-echo "ui_print > 42 enable_inline_suggestions_tooltip" > "$OUTFD"
-sed -i 's/"enable_inline_suggestions_tooltip\" value=\"false"/"enable_inline_suggestions_tooltip\" value=\"true"/g' $TGT
+# echo "ui_print > 42 enable_inline_suggestions_tooltip" > "$OUTFD"
+# sed -i 's/"enable_inline_suggestions_tooltip\" value=\"false"/"enable_inline_suggestions_tooltip\" value=\"true"/g' $TGT
 
-echo "ui_print > 43 enable_inline_suggestions_tooltip" > "$OUTFD"
-sed -i 's/"enable_inline_suggestions_tooltip\" value=\"false"/"enable_inline_suggestions_tooltip\" value=\"true"/g' $TGT
+# echo "ui_print > 43 enable_inline_suggestions_tooltip" > "$OUTFD"
+# sed -i 's/"enable_inline_suggestions_tooltip\" value=\"false"/"enable_inline_suggestions_tooltip\" value=\"true"/g' $TGT
 
-echo "ui_print > 44 enable_keyboard_redesign_theme" > "$OUTFD"
-sed -i 's/"enable_keyboard_redesign_theme\" value=\"false"/"enable_keyboard_redesign_theme\" value=\"true"/g' $TGT
+# echo "ui_print > 44 enable_keyboard_redesign_theme" > "$OUTFD"
+# sed -i 's/"enable_keyboard_redesign_theme\" value=\"false"/"enable_keyboard_redesign_theme\" value=\"true"/g' $TGT
 
-echo "ui_print > 45 fast_access_bar_enable_instantly_remove" > "$OUTFD"
-sed -i 's/"fast_access_bar_enable_instantly_remove\" value=\"false"/"fast_access_bar_enable_instantly_remove\" value=\"true"/g' $TGT
+# echo "ui_print > 45 fast_access_bar_enable_instantly_remove" > "$OUTFD"
+# sed -i 's/"fast_access_bar_enable_instantly_remove\" value=\"false"/"fast_access_bar_enable_instantly_remove\" value=\"true"/g' $TGT
 
-echo "ui_print > 46 enable_multiword_suggestions_as_inline_from_crank_cifg" > "$OUTFD"
-sed -i 's/"enable_multiword_suggestions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_suggestions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+# echo "ui_print > 46 enable_multiword_suggestions_as_inline_from_crank_cifg" > "$OUTFD"
+# sed -i 's/"enable_multiword_suggestions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_suggestions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-echo "ui_print > 47 enable_matched_predictions_as_inline_from_crank_cifg" > "$OUTFD"
-sed -i 's/"enable_matched_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_matched_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+# echo "ui_print > 47 enable_matched_predictions_as_inline_from_crank_cifg" > "$OUTFD"
+# sed -i 's/"enable_matched_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_matched_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-echo "ui_print > 48 nebulae_enable_input_action_collection" > "$OUTFD"
-sed -i 's/"nebulae_enable_input_action_collection\" value=\"true"/"nebulae_enable_input_action_collection\" value=\"true"/g' $TGT
+# echo "ui_print > 48 nebulae_enable_input_action_collection" > "$OUTFD"
+# sed -i 's/"nebulae_enable_input_action_collection\" value=\"true"/"nebulae_enable_input_action_collection\" value=\"true"/g' $TGT
 
-echo "ui_print > 49 enable_single_word_suggestions_as_inline_from_crank_cifg" > "$OUTFD"
-sed -i 's/"enable_single_word_suggestions_as_inline_from_crank_cifg\" value=\"false"/"enable_single_word_suggestions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+# echo "ui_print > 49 enable_single_word_suggestions_as_inline_from_crank_cifg" > "$OUTFD"
+# sed -i 's/"enable_single_word_suggestions_as_inline_from_crank_cifg\" value=\"false"/"enable_single_word_suggestions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-echo "ui_print > 50 use_keyboard_redesign_on_existing_theme" > "$OUTFD"
-sed -i 's/"use_keyboard_redesign_on_existing_theme\" value=\"false"/"use_keyboard_redesign_on_existing_theme\" value=\"true"/g' $TGT
+# echo "ui_print > 50 use_keyboard_redesign_on_existing_theme" > "$OUTFD"
+# sed -i 's/"use_keyboard_redesign_on_existing_theme\" value=\"false"/"use_keyboard_redesign_on_existing_theme\" value=\"true"/g' $TGT
 
-echo "ui_print > 51 silk_theme" > "$OUTFD"
-sed -i 's/"silk_theme\" value=\"false"/"silk_theme\" value=\"true"/g' $TGT
+# echo "ui_print > 51 silk_theme" > "$OUTFD"
+# sed -i 's/"silk_theme\" value=\"false"/"silk_theme\" value=\"true"/g' $TGT
 
-echo "ui_print > 52 enable_tflite_triggering_model" > "$OUTFD"
-sed -i 's/"enable_tflite_triggering_model\" value=\"false"/"enable_tflite_triggering_model\" value=\"true"/g' $TGT
+# echo "ui_print > 52 enable_tflite_triggering_model" > "$OUTFD"
+# sed -i 's/"enable_tflite_triggering_model\" value=\"false"/"enable_tflite_triggering_model\" value=\"true"/g' $TGT
 
-echo "ui_print > 53 extends_touch_below_space" > "$OUTFD"
-sed -i 's/"extends_touch_below_space\" value=\"false"/"extends_touch_below_space\" value=\"true"/g' $TGT
+# echo "ui_print > 53 extends_touch_below_space" > "$OUTFD"
+# sed -i 's/"extends_touch_below_space\" value=\"false"/"extends_touch_below_space\" value=\"true"/g' $TGT
 
-echo "ui_print > 54 native_language_hint_by_system_locales" > "$OUTFD"
-sed -i 's/"native_language_hint_by_system_locales\" value=\"false"/"native_language_hint_by_system_locales\" value=\"false"/g' $TGT
+# echo "ui_print > 54 native_language_hint_by_system_locales" > "$OUTFD"
+# sed -i 's/"native_language_hint_by_system_locales\" value=\"false"/"native_language_hint_by_system_locales\" value=\"false"/g' $TGT
 
 echo "ui_print > +" > "$OUTFD"
 
