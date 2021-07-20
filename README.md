@@ -1,7 +1,8 @@
 <h1 align='center'> Gboard new UI <br><br>
- (not compatible with Android 12 Beta 3, yet.)
+ (NoW compatible with Android 12 Beta 3!)
 
 ![gboard banner](https://user-images.githubusercontent.com/54891285/120060262-71a04400-c074-11eb-8fa3-44c30812b85b.png)
+
 </h1>
 <p align='center'>Enables the Android 12 Google MaterialYou, Google branding, Other minor tweaks in Gboard. </p>
 <h1 align='center'>
@@ -12,50 +13,61 @@
 </h1>
 
 ## Before you flash (A12)
+
 1. Make sure you installed a12 for monet.
 2. Enabled monet using Kdragon's extension
 3. Make sure systemui.gxoverlay is enabled.
 4. Make sure your Gboard is on the beta verions (<a href="#signup-for-beta-here">Apply</a>).
 
 ## Before you flash (<A12)
+
 1. Make sure your Gboard is on the beta verions (<a href="#signup-for-beta-here">Apply</a>).
 
 ## How to flash
+
 1. Flash in recovery
 2. Reboot
 
 ## **Signup for beta here**
+
 <a href="https://play.google.com/apps/testing/com.google.android.inputmethod.latin">Gboard Beta Signup Page</a>
 
 ## Notes
- > Flash this zip everytime you update your gboard!
- > 
- > Make sure you are on default theme in 'styles and wallaper' 
- > 
- > If you are on A11 or below, only the new UI layout, Google Branding will be enabled (**NO MONET** check screenshots for details)
+
+> Flash this zip everytime you update your gboard!
+>
+> Make sure you are on default theme in 'styles and wallaper'
+>
+> If you are on A11 or below, only the new UI layout, Google Branding will be enabled (**NO MONET** check screenshots for details)
 
 ## Tested on
+
 ### ROMs
+
 For beta 2, use the v3.0 for now.
+
 1. A12 B1
 2. A12 DP3
 3. A10 - G Branding
-_4. A11 - G Branding_
-5. MIUI - G Branding
+   _4. A11 - G Branding_
+4. MIUI - G Branding
+
 ### Recoveries
+
 1. TWRP
 2. Orange Fox
 3. SHRP
+
 ### Devices
+
 1. Redmi Note 7/7S (lavender)
 
 ### Failure rate
-**15/956**, for now. 
 
+**15/964**, for now.
 
 ## TODO
-* [X] REWRITE script to use sed!
-* [ ] Screeeeenshots! _up next_
-* [ ] Search for new flags!
 
-
+- [x] REWRITE script to use sed!
+- [ ] Screeeeenshots! _up next_
+- [ ] Search for new flags!
