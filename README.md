@@ -69,5 +69,5 @@ For beta 2, use the v3.0 for now.
 ## TODO
 
 - [x] REWRITE script to use sed!
-- [ ] Screeeeenshots! _up next_
+- [x] Screeeeenshots! _up next_
 - [ ] Search for new flags!
