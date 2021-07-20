@@ -112,35 +112,35 @@ sed -i 's/"enable_spell_checker_extension\" value=\"false"/"nable_spell_checker_
 echo "ui_print > 20 animate_first_content_suggestion_results" > "$OUTFD"
 sed -i 's/"animate_first_content_suggestion_results\" value=\"false"/"animate_first_content_suggestion_results\" value=\"true"/g' $TGT
 
-# echo "ui_print > 21 enable_user_history_predictions_as_inline_from_crank_cifg" > "$OUTFD"
-# sed -i 's/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+echo "ui_print > 21 enable_user_history_predictions_as_inline_from_crank_cifg" > "$OUTFD"
+sed -i 's/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-# echo "ui_print > 22 silk_on_all_pixel" > "$OUTFD"
-# sed -i 's/"silk_on_all_pixel\" value=\"false"/"silk_on_all_pixel\" value=\"true"/g' $TGT
+echo "ui_print > 22 silk_on_all_pixel" > "$OUTFD"
+sed -i 's/"silk_on_all_pixel\" value=\"false"/"silk_on_all_pixel\" value=\"true"/g' $TGT
 
-# echo "ui_print > 23 keyboard_redesign_google_sans" > "$OUTFD"
-# sed -i 's/"keyboard_redesign_google_sans\" value=\"false"/"keyboard_redesign_google_sans\" value=\"true"/g' $TGT
+echo "ui_print > 23 keyboard_redesign_google_sans" > "$OUTFD"
+sed -i 's/"keyboard_redesign_google_sans\" value=\"false"/"keyboard_redesign_google_sans\" value=\"true"/g' $TGT
 
-# echo "ui_print > 24 nwp_threshold_for_two_words_completions" > "$OUTFD"
-# sed -i 's/"nwp_threshold_for_two_words_completions\" value=\"-0.4"/"nwp_threshold_for_two_words_completions\" value=\"-0.3"/g' $TGT
+echo "ui_print > 24 nwp_threshold_for_two_words_completions" > "$OUTFD"
+sed -i 's/"nwp_threshold_for_two_words_completions\" value=\"-0.4"/"nwp_threshold_for_two_words_completions\" value=\"-0.3"/g' $TGT
 
-# echo "ui_print > 25 trigger_spell_check_in_composing_delay" > "$OUTFD"
-# sed -i 's/"trigger_spell_check_in_composing_delay\" value=\"3000"/"trigger_spell_check_in_composing_delay\" value=\"1500"/g' $TGT
+echo "ui_print > 25 trigger_spell_check_in_composing_delay" > "$OUTFD"
+sed -i 's/"trigger_spell_check_in_composing_delay\" value=\"3000"/"trigger_spell_check_in_composing_delay\" value=\"1500"/g' $TGT
 
-# echo "ui_print > 26 time_interval_percentile" > "$OUTFD"
-# sed -i 's/"time_interval_percentile\" value=\"90"/"time_interval_percentile\" value=\"67"/g' $TGT
+echo "ui_print > 26 time_interval_percentile" > "$OUTFD"
+sed -i 's/"time_interval_percentile\" value=\"90"/"time_interval_percentile\" value=\"67"/g' $TGT
 
-# echo "ui_print > 27 enable_multiword_predictions_as_inline_from_crank_cifg" > "$OUTFD"
-# sed -i 's/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
+echo "ui_print > 27 enable_multiword_predictions_as_inline_from_crank_cifg" > "$OUTFD"
+sed -i 's/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_multiword_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
 
-# echo "ui_print > 28 lm_personalization_enabled" > "$OUTFD"
-# sed -i 's/"lm_personalization_enabled\" value=\"false"/"lm_personalization_enabled\" value=\"true"/g' $TGT
+echo "ui_print > 28 lm_personalization_enabled" > "$OUTFD"
+sed -i 's/"lm_personalization_enabled\" value=\"false"/"lm_personalization_enabled\" value=\"true"/g' $TGT
 
-# echo "ui_print > 29 pseudo_spellchecker_mode" > "$OUTFD"
-# sed -i 's/"pseudo_spellchecker_mode\" value=\"0"/"pseudo_spellchecker_mode\" value=\"1"/g' $TGT
+echo "ui_print > 29 pseudo_spellchecker_mode" > "$OUTFD"
+sed -i 's/"pseudo_spellchecker_mode\" value=\"0"/"pseudo_spellchecker_mode\" value=\"1"/g' $TGT
 
-# echo "ui_print > 30 disable_vocabulary_capitalization" > "$OUTFD"
-# sed -i 's/"disable_vocabulary_capitalization\" value=\"true"/"disable_vocabulary_capitalization\" value=\"false"/g' $TGT
+echo "ui_print > 30 disable_vocabulary_capitalization" > "$OUTFD"
+sed -i 's/"disable_vocabulary_capitalization\" value=\"true"/"disable_vocabulary_capitalization\" value=\"false"/g' $TGT
 
 # echo "ui_print > 31 enable_animated_whatsapp_sticker_webp" > "$OUTFD"
 # sed -i 's/"enable_animated_whatsapp_sticker_webp\" value=\"false"/"enable_animated_whatsapp_sticker_webp\" value=\"true"/g' $TGT
