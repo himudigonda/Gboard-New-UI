@@ -221,34 +221,3 @@ echo '    <string name="lm_personalization_superpacks_manifest_url"></string>' >
 # sed -i 's/"old-text"/"new-text"/g' $TGT
 
 echo "ui_print + Done with SED" > "$OUTFD"
-
-
-# adding smooth props in system props
-for f in installer.sh busybox-arm ; do
-  unzip -o "$ZIPFILE" "$f" -d "$TMP";
-done
-for f in  busybox-arm ; do
-  chmod +x "$TMP/$f";
-done
-
-if [ -e "$bb" ]; then
-  install -d "$l"
-  for i in $($bb --list); do
-    if ! ln -sf "$bb" "$l/$i" && ! $bb ln -sf "$bb" "$l/$i" && ! $bb ln -f "$bb" "$l/$i" ; then
-      # create script wrapper if symlinking and hardlinking failed because of restrictive selinux policy
-      if ! echo "#!$bb" > "$l/$i" || ! chmod +x "$l/$i" ; then
-        echo "ui_print > - ERROR 10: Failed to set-up pre-bundled busybox" > "$OUTFD"
-        echo "ui_print > ." > "$OUTFD"
-        echo "ui_print >  Please use TWRP as recovery instead" > "$OUTFD"
-        echo "ui_print > ." > "$OUTFD"
-        exit 1
-      fi
-    fi
-  done
-  PATH="$l:$PATH" $bb ash "$TMP/installer.sh" "$@"
-  exit "$?"
-else
-  echo "ui_print > - ERROR 64: Wrong architecture to set-up pre-bundled busybox" > "$OUTFD"
-  echo "ui_print > ." > "$OUTFD"
-  exit 1
-fi
