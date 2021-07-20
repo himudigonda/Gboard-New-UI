@@ -82,35 +82,35 @@ sed -i 's/"branding_fadeout_delay_ms\" value=\"900"/"branding_fadeout_delay_ms\"
 echo "ui_print > 10 pill_shaped_key" > "$OUTFD"
 sed -i 's/"pill_shaped_key\" value=\"false"/"pill_shaped_key\" value=\"true"/g' $TGT
 
-# echo "ui_print > 11 use_keyboard_redesign_theme_by_default" > "$OUTFD"
-# sed -i 's/"use_keyboard_redesign_theme_by_default\" value=\"false"/"use_keyboard_redesign_theme_by_default\" value=\"true"/g' $TGT
+echo "ui_print > 11 use_keyboard_redesign_theme_by_default" > "$OUTFD"
+sed -i 's/"use_keyboard_redesign_theme_by_default\" value=\"false"/"use_keyboard_redesign_theme_by_default\" value=\"true"/g' $TGT
 
-# echo "ui_print > 12 show_branding_on_space" > "$OUTFD"
-# sed -i 's/"show_branding_on_space\" value=\"false"/"show_branding_on_space" value=\"true"/g' $TGT
+echo "ui_print > 12 show_branding_on_space" > "$OUTFD"
+sed -i 's/"show_branding_on_space\" value=\"false"/"show_branding_on_space" value=\"true"/g' $TGT
 
-# echo "ui_print > 13 use_keyboard_redesign_on_existing_theme_on_all_users" > "$OUTFD"
-# sed -i 's/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"false"/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"true"/g' $TGT
+echo "ui_print > 13 use_keyboard_redesign_on_existing_theme_on_all_users" > "$OUTFD"
+sed -i 's/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"false"/"use_keyboard_redesign_on_existing_theme_on_all_users\" value=\"true"/g' $TGT
 
-# echo "ui_print > 14 fast_access_bar_enable_frequently_used" > "$OUTFD"
-# sed -i 's/"fast_access_bar_enable_frequently_used\" value=\"false"/"fast_access_bar_enable_frequently_used\" value=\"true"/g' $TGT
+echo "ui_print > 14 fast_access_bar_enable_frequently_used" > "$OUTFD"
+sed -i 's/"fast_access_bar_enable_frequently_used\" value=\"false"/"fast_access_bar_enable_frequently_used\" value=\"true"/g' $TGT
 
-# echo "ui_print > 15 enable_inline_suggestions_on_client_side" > "$OUTFD"
-# sed -i 's/"enable_inline_suggestions_on_client_side\" value=\"false"/"enable_inline_suggestions_on_client_side\" value=\"true"/g' $TGT
+echo "ui_print > 15 enable_inline_suggestions_on_client_side" > "$OUTFD"
+sed -i 's/"enable_inline_suggestions_on_client_side\" value=\"false"/"enable_inline_suggestions_on_client_side\" value=\"true"/g' $TGT
 
-# echo "ui_print > 16 show_branding_interval_seconds" > "$OUTFD"
-# sed -i 's/"show_branding_interval_seconds\" value=\"86400000"/"show_branding_interval_seconds\" value=\"0"/g' $TGT
+echo "ui_print > 16 show_branding_interval_seconds" > "$OUTFD"
+sed -i 's/"show_branding_interval_seconds\" value=\"86400000"/"show_branding_interval_seconds\" value=\"0"/g' $TGT
 
-# echo "ui_print > 17 spellchecker_enable_rule_trigger" > "$OUTFD"
-# sed -i 's/"spellchecker_enable_rule_trigger\" value=\"false"/"spellchecker_enable_rule_trigger\" value=\"true"/g' $TGT
+echo "ui_print > 17 spellchecker_enable_rule_trigger" > "$OUTFD"
+sed -i 's/"spellchecker_enable_rule_trigger\" value=\"false"/"spellchecker_enable_rule_trigger\" value=\"true"/g' $TGT
 
-# echo "ui_print > 18 enable_trigger_spell_check_in_sentence" > "$OUTFD"
-# sed -i 's/"enable_trigger_spell_check_in_sentence\" value=\"false"/"enable_trigger_spell_check_in_sentence\" value=\"true"/g' $TGT
+echo "ui_print > 18 enable_trigger_spell_check_in_sentence" > "$OUTFD"
+sed -i 's/"enable_trigger_spell_check_in_sentence\" value=\"false"/"enable_trigger_spell_check_in_sentence\" value=\"true"/g' $TGT
 
-# echo "ui_print > 19 enable_spell_checker_extension" > "$OUTFD"
-# sed -i 's/"enable_spell_checker_extension\" value=\"false"/"nable_spell_checker_extension\" value=\"true"/g' $TGT
+echo "ui_print > 19 enable_spell_checker_extension" > "$OUTFD"
+sed -i 's/"enable_spell_checker_extension\" value=\"false"/"nable_spell_checker_extension\" value=\"true"/g' $TGT
 
-# echo "ui_print > 20 animate_first_content_suggestion_results" > "$OUTFD"
-# sed -i 's/"animate_first_content_suggestion_results\" value=\"false"/"animate_first_content_suggestion_results\" value=\"true"/g' $TGT
+echo "ui_print > 20 animate_first_content_suggestion_results" > "$OUTFD"
+sed -i 's/"animate_first_content_suggestion_results\" value=\"false"/"animate_first_content_suggestion_results\" value=\"true"/g' $TGT
 
 # echo "ui_print > 21 enable_user_history_predictions_as_inline_from_crank_cifg" > "$OUTFD"
 # sed -i 's/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"false"/"enable_user_history_predictions_as_inline_from_crank_cifg\" value=\"true"/g' $TGT
