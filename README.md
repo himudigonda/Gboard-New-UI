@@ -62,10 +62,6 @@ For beta 2, use the v3.0 for now.
 
 1. Redmi Note 7/7S (lavender)
 
-### Failure rate
-
-**15/964**, for now.
-
 ## TODO
 
 - [x] REWRITE script to use sed!
