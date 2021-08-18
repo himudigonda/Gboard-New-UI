@@ -1,5 +1,5 @@
 <h1 align='center'> Gboard new UI <br>
- (Now compatible with Android 12 Beta 3.1)
+ (Now compatible with Android 12 Beta 4)
 
 ![gboard banner](https://user-images.githubusercontent.com/54891285/120060262-71a04400-c074-11eb-8fa3-44c30812b85b.png)
 
