@@ -25,11 +25,15 @@
 1. Make sure you installed a12 for monet.
 2. Enabled monet using Kdragon's extension
 3. Make sure systemui.gxoverlay is enabled.
-4. Make sure your Gboard is on the beta verions *⬇️ scroll down to **Signup for beta here** ⬇️*.
+4. Make sure your Gboard is on the beta verions 
+
+*⬇️  scroll down to **Signup for beta** ⬇️*.
 
 ## Before you flash (<A12)
 
-1. Make sure your Gboard is on the beta verions *⬇️ scroll down to **Signup for beta here** ⬇️*.
+1. Make sure your Gboard is on the beta verions 
+
+*⬇️  scroll down to **Signup for beta** ⬇️*.
 
 ## How to flash
 
